@@ -1,1 +1,20 @@
-This is version of my projec
+1) git status
+2) if you are creating a new project in git then,
+git init - create an empty repository an existing one.(it means we have not file whom  we may transfer to in git)
+3)git add --a  - this command will add all the files to the staging area .
+4)git add first.txt - we can see that the file is removed from the staging area.
+5)git commit -m "Initial Commit"(How much the files init ?)
+6) git commit -m "Changed first.txt and added better design"
+
+
+Staging :- Imagine a box . you can put stuff into the box. you can take stuff out of the box. this box is the staging area of git. +
+staging is done by using git add command. This cimmand informs git about the contents those are ready to be commited.
+
+
+Commit :- Git Commit is the next step after staging the contents. It is a sort of confirmation from your side after 
+hich git creates a snapshot of the present state of repository 
+forever , or in other words , we can say the contents staged got commited 
+
+  Steps for commiting your work :
+1) git add your work
+2) git commit your work   
