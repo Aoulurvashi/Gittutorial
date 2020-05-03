@@ -22,3 +22,28 @@ forever , or in other words , we can say the contents staged got commited
 7) rm -rf .git - using for remove the old repository .
 8)git clone https://------   (firstly using the tensorflow repository from googl and site name is git website tensorflo)
 if you r changing in this file then we can see tht have been changing in it.
+
+
+9) touch error.log - this command create a new file which name is error.log
+and then we assume that our software automatically generate in error.log then
+
+10) if i want to that humme koi mtlb ni h error.log se in working tree m ar error.log humme preshan naah krre to hum
+touch .gitignore - then create a file which name is gitignore
+11)In this file gitignore  we write a erroe.log and then save 
+we see that in git status error.log will be removed and  only see file gitignore
+12) git add --a - all the files are staging area
+git commit -m "Added gitignore" - all the files are commited area
+
+13) if our project m bhot sare error.log files create ho gyi then in git ignore  we write a ----  *.log (using for ignore the files)
+
+14)agr humne directory bnayi ar usme files bii a ar folder bii h ar we wnna that humare folders k andr ka matter bii tracted ho than - 
+in gitignore - dir/  tb humare directory ignore ho jyege(dir name ka folder  ignore ho jyege)(using for ignore the folder)
+
+15) agr hume koi file ya directory add krni h in staging area m then we can write git commit -m "added static"
+
+16)  if we want to that ignore the outer folder(dir) - then /dir/ write in gitignore file 
+
+17) pure folder ko ignore krne k liye outer folder name(static) - static/dir
+
+18) git diff -- this command looking the  differences between working directory and staging area .
+19) git diff --staged - this command show the comparing between previous commited area from  now a commited area .   
