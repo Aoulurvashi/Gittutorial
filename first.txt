@@ -46,4 +46,7 @@ in gitignore - dir/  tb humare directory ignore ho jyege(dir name ka folder  ign
 17) pure folder ko ignore krne k liye outer folder name(static) - static/dir
 
 18) git diff -- this command looking the  differences between working directory and staging area .
-19) git diff --staged - this command show the comparing between previous commited area from  now a commited area .   
+19) git diff --staged - this command show the comparing between previous commited area from s now a commited area . 
+20) skip the staging area and direct the commited command is ---   git commit -a -m "Direct commit"
+ in this command tracked files to be direct commited but untracked files do not  yet commited  and for the files to be 
+commited then the command is git add second.txt(filename)   
