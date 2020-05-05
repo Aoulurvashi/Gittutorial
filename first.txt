@@ -79,6 +79,25 @@ d19367fd2e95033be3e46f1393688e1b3c82e8fb Changed first.txt and added better desi
   
 28)git log --pretty=short ----- this command shows the autors name and commit detail
 
+29)git log --since=2.days -----yh aapko last 2 days ka work dikha dega
+git log --since= 2.months----- work from last month
+
+30)viewing the autors and email -----git log --pretty=format:"%h -- %an" ----- and open the git documentation ans looking all the  format command
+this command show the author name(an) and email(ae) 
+
+31)change to previous commit and message  ----- git commit --amend(change krna) jaise hi yh command run krayege tb humara 1 editor open hoga ar usme
+previous message hoga tb hum i :(esc)wq and then enter tb hum apna message likh denge 
+
+
+32) for unstaged ----git restore --staged first.txt
+
+33) unmodified ---- it means if your files are to be empty  by mistake and you  want to got a dtail on this file then  
+the command  is ----- git checkout -- first.txt but iss command m yh h ki phle file commit ki hui ho empty krne se phle 
+    
+34) sare  new changes ko httakr picchle change m jaana h to ---- git checkout -f 
+
+   
+
 
 
    
