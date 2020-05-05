@@ -61,4 +61,24 @@ ar agr aap gitignore se db.accdb file ho remove kr doge tb vo yh show krayega ki
 24)git log -p ----   show  your changes in the files and show the previous detail  to the files 
 25) git log -p -3 ---- it shows only 3 changes in your commit area
 
+26) git log --stat ----- it  briefly explain the commit files that means which are you changes in all the files 
+
+27)  git log --pretty=oneline ---- this command shows all the commit in one line
+output : ---  514b096c79015e3e7ff0098805b820abc7167224 (HEAD -> master) coco
+8c1484d4bcad49eaf102928136f8f70e0fe6e485 Changes
+54d4b609bbb0284b78fb944ecae60838cb9dc565 Changed gitignore
+687fb3eb0942fa918c67a6fa603a725652a4ce47 Changed gitignore
+d9bc23650526e078b9096cf67139d6a84d693f04 renamed
+4f7ba1bd307a634e4a901372c0979a7092126055 removed the files second.txt
+87d0a3e8e6f416579cb04de33c420b93220dabd5 for commit
+6ff1e9487f0765b979ae379f117174fa0a07c690 changes to be in a cart
+f78433817d59f2622d474fe369b2ddda6fae16d1 added static
+d1ea76efa6e4f51309c8951f18242636082421bf Added gitignore
+d19367fd2e95033be3e46f1393688e1b3c82e8fb Changed first.txt and added better design
+7c296a038bc181ac2a33783684785d6c055db4a2 Initial Commit
+  
+28)git log --pretty=short ----- this command shows the autors name and commit detail
+
+
+
    
