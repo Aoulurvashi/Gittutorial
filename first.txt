@@ -53,5 +53,9 @@ commited then the command is git add second.txt(filename)
 
 21) remove the file ---- git rm third.txt
 22)rename the file -----   git mv second.txt(old file name) second_renamed.txt(new file name)
+23) if you dont want to tracked the file any one then ---  git rm --cached db.accdb
+this command do not delete the file but it will be untracked the file
+
+ar agr aap gitignore se db.accdb file ho remove kr doge tb vo yh show krayega ki aap file ko tracked ni kr rhe ho
 
    
