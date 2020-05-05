@@ -58,4 +58,7 @@ this command do not delete the file but it will be untracked the file
 
 ar agr aap gitignore se db.accdb file ho remove kr doge tb vo yh show krayega ki aap file ko tracked ni kr rhe ho
 
+24)git log -p ----   show  your changes in the files and show the previous detail  to the files 
+25) git log -p -3 ---- it shows only 3 changes in your commit area
+
    
